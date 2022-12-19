@@ -92,3 +92,27 @@ p {
   border-radius: 4px;
   padding: 15px 30px;
 }
+
+@media (max-width: 576px) {
+  h1,
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 13px;
+  }
+  .launch-link {
+    padding: 5px;
+    font-size: 12px;
+  }
+  .email-link {
+    font-size: 14px;
+  }
+
+  body {
+    max-width: 300px auto;
+  }
+}
